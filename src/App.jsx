@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useState } from "react";
-import Login from "./components/Login";
-import Success from "./components/Success";
+import Login from "./components/login.jsx";
+import Success from "./components/success.jsx";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

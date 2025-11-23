@@ -1,9 +1,9 @@
-// src/components/Success.jsx
+// src/components/success.jsx
 export default function Success() {
     return (
       <div>
-        <h1>Giriş Başarılı</h1>
-        <p>Success sayfasına hoş geldiniz.</p>
+        <h1 data-cy="success-title">Giriş Başarılı</h1>
+        <p data-cy="success-message">Form başarı ile gönderildi</p>
       </div>
     );
   }
